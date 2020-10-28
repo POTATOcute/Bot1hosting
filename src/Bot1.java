@@ -25,7 +25,7 @@ public class Bot1 {
 		gatewayIntents.add(GatewayIntent.GUILD_MEMBERS);
 	
 		
-		jda = new JDABuilder(AccountType.BOT).setToken(System.getenv("TOKEN")).build();
+		jda = new JDABuilder(AccountType.BOT).setToken("NzY5Mzc0MDE2MDY1NTAzMjcy.X5OFYw.50WLVmplA_S5UNOuzdHEpQaVWVI").build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE);
 		jda.getPresence().setActivity(Activity.watching("you"));
 		
